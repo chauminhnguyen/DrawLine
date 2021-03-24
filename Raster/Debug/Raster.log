@@ -1,16 +1,2 @@
-﻿  LineDDA.cpp
-E:\VS\Raster\Raster\LineDDA.cpp(10,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\VS\Raster\Raster\LineDDA.cpp(13,9): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-E:\VS\Raster\Raster\LineDDA.cpp(14,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-E:\VS\Raster\Raster\LineDDA.cpp(23,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\VS\Raster\Raster\LineDDA.cpp(26,9): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-E:\VS\Raster\Raster\LineDDA.cpp(27,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-E:\VS\Raster\Raster\LineDDA.cpp(39,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\VS\Raster\Raster\LineDDA.cpp(40,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\VS\Raster\Raster\LineDDA.cpp(43,9): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-E:\VS\Raster\Raster\LineDDA.cpp(44,9): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-E:\VS\Raster\Raster\LineDDA.cpp(45,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-E:\VS\Raster\Raster\LineDDA.cpp(46,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-  RasterView.cpp
-  Generating Code...
+﻿  RasterView.cpp
   Raster.vcxproj -> E:\VS\Raster\Debug\Raster.exe
