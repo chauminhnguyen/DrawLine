@@ -156,9 +156,10 @@ void CRasterView::OnMouseMove(UINT nFlags, CPoint point)
 	x_end = point.x;
 	y_end = point.y;
 	if (x_start != NULL && y_start != NULL && x_end != NULL && y_end != NULL && isDrag) {
-		Invalidate(0);
-		LineDDA::DDA(pDC, x_start, y_start, x_end, y_end, RGB(255, 0, 0));
-		//Bresenham::LineBresenham(pDC, x_start, y_start, x_end, y_end, RGB(255, 0, 0));
+		Invalidate();
+		UpdateWindow();
+		//LineDDA::DDA(pDC, x_start, y_start, x_end, y_end, RGB(255, 0, 0));
+		Bresenham::LineBresenham(pDC, x_start, y_start, x_end, y_end, RGB(255, 0, 0));
 	}
 	
 	CView::OnMouseMove(nFlags, point);
